@@ -187,6 +187,7 @@
   float: right;
   background-color: #313131;
   cursor: pointer;
+  color: #fdfdfd;
 }
 
 .btn-send input:hover {

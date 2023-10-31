@@ -1,8 +1,10 @@
+import CONSTRUCAO from "../img/background/construcao.webp"
+import "./Project.css"
 
 const Project = () => {
   return (
-    <div>
-      <h1>Projetos</h1>
+    <div className="main-project dark">
+      <img src={CONSTRUCAO} alt="" />
     </div>
   )
 }
