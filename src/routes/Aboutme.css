@@ -1,0 +1,79 @@
+
+
+.container-about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-text {
+  width: 40%;
+  text-align: left;
+}
+
+.description {
+  font-size: 1.2rem;
+}
+
+.about-image {
+  width: 50%;
+}
+
+.about-image img {
+  width: 75%;
+}
+
+.container-course {
+  margin: 0 auto;
+  max-width: 1040px;
+}
+
+.course-detail {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.course-detail img {
+  width: 100px;
+  height: auto;
+}
+
+.container-random {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-image {
+  width: 50%;
+}
+
+.random-image img {
+  width: 75%;
+}
+
+.random-facts-list {
+  width: 45%;
+  text-align: left;
+  margin-left: 3rem;
+}
+
+.random-facts-list .ul {
+  list-style: none;
+  line-height: 2;
+}
+
+.random-facts-list .ul li {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.skills-list {
+  width: 100%;
+}
+
+
+

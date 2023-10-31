@@ -1,0 +1,7 @@
+.footer-container {
+  width: 100%;
+  padding: 1rem;
+  background-color: #c3c3c3;
+  color: #333;
+  box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
