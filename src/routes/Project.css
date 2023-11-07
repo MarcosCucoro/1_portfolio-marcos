@@ -1,3 +1,116 @@
 .main-project {
-  background-color: #f1a025;
+  padding: 5.5rem 0;
 }
+
+.container-project {
+  margin: 0 10rem;
+}
+
+.container-project h2 {
+  margin-bottom: 2.5rem;
+}
+
+.container-project-detail {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.project-detail {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: .7rem;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .7rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.project-detail img {
+  max-width: 1040px;
+  width: 100%;
+  height: -webkit-fill-available;
+}
+
+.btn-project {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background-color: #777676;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid #fafafa;
+  border-radius: 10px;
+}
+
+.btn-project:hover {
+  background-color: #fafafa;
+  color: #000;
+  border: 2px solid #777676;
+} 
+
+.btn-github {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .3rem;
+}
+
+.btn-github:hover {
+  color: #777676;
+}
+
+.container-project-detail-pessoal {
+  display: flex;
+  justify-content: center;
+}
+
+.project-detail-pessoal {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: .7rem;
+}
+
+.project-pessoal img {
+  width: 55%;
+}
+
+.project-pessoal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .7rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.btn-project-pessoal {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background-color: #e7e5e5;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid #777676;
+  border-radius: 10px;
+}
+
+.btn-project-pessoal:hover {
+  background-color: #777676;
+  color: #fff;
+  border: 2px solid #e7e5e5;
+} 

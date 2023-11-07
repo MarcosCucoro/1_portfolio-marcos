@@ -6,13 +6,13 @@
 }
 
 .contact {
-  background-color: rgba(56, 55, 55, 0.514);
+  background-color: #7776767a;
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: left;
   gap: 1rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin: 0 auto;
   padding: 2rem 4rem;
   max-width: 1040px;
@@ -39,7 +39,6 @@
 .rede_social li {
   width: 45%;
   padding: 1rem;
-  background-color: #545252;
   border-radius: 1rem;
 }
 
@@ -91,7 +90,7 @@
 }
 
 .contact-image img {
-  border-radius: 2rem;
+  border-radius: 1rem;
   width: 100%;
 }
 
@@ -182,15 +181,17 @@
   font-weight: bold;
   font-size: 1.2rem;
   padding: 1rem 2rem;
-  border: none;
-  border-radius: 5px;
+  border-radius: .5rem;
   float: right;
-  background-color: #313131;
+  background-color: #777676;
   cursor: pointer;
   color: #fdfdfd;
+  border: 2px solid #e7e5e5;
 }
 
 .btn-send input:hover {
-  opacity: .6;
+  background-color: #e7e5e5;
+  border: 2px solid #777676;
+  color: #000;
 }
 
