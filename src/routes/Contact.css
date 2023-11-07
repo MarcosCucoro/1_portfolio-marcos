@@ -168,7 +168,6 @@
 .form-message label {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
 }
 
 .form-message textarea {
@@ -195,3 +194,62 @@
   color: #000;
 }
 
+@media screen and (max-width: 768px) {
+  .container-contact {
+    height: 60vh;
+  }
+  .contact {
+    padding: 0;
+    background-color: #fafafa;
+  }
+  .contact-image {
+    display: none;
+  }
+  .contact-text {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container-contact {
+    height: 40vh;
+  }
+  .contact {
+    padding: 0;
+    background-color: #fafafa;
+  }
+  .contact-image {
+    display: none;
+  }
+  .contact-text {
+    width: 90%;
+  }
+  .contact-text h1 {
+    font-size: 3.2rem;
+  }
+  .intro {
+    font-size: 1.15rem;
+  }
+  .contact-detail {
+    padding: 1rem 1.5rem;
+  }
+  .title-form h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+  }
+  .form {
+    flex-direction: column;
+    gap: .7rem;
+  }
+  .form-header,
+  .form-message {
+    width: 100%;
+  }
+  .form-header {
+    gap: .7rem;
+  }
+  .btn-send input {
+    padding: .8rem 1rem;
+    font-size: 1rem;
+  }
+}

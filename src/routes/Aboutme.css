@@ -75,5 +75,51 @@
   width: 100%;
 }
 
+@media screen and (max-width:768px) {
+  .about-text h1 {
+    font-size: 3.2rem;
+  }
+  .about-text p {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .course-detail {
+    flex-wrap: wrap;
+    gap: 1.2rem 5.5rem;
+    justify-content: center;
+  }
+  .course-detail img {
+    width: 70px;
+  }
+  .random-facts-list .ul li {
+    font-size: 1rem;
+  }
+}
 
+@media screen and (max-width: 480px) {
+  .about-image,
+  .random-image {
+    display: none;
+  }
+  .about-text {
+    width: 90%;
+  }
+  .about-text h1 {
+    font-size: 2.2rem;
+  }
+  .intro {
+    margin-bottom: .6rem;
+  }
+  .course-detail {
+    gap: 1.2rem 3.5rem;
+  }
+  .random-facts-list {
+    width: 100%;
+  }
+  .random-facts-list h2 {
+    margin-bottom: 0.6rem;
+  }
+}
 
