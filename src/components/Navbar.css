@@ -23,6 +23,7 @@
 
 .active {
   color: #fdfdfd;
+  border-bottom: 2px solid #fdfdfd;
 }
 
 

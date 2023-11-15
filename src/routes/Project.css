@@ -40,18 +40,18 @@
 .btn-project {
   text-decoration: none;
   padding: 1rem 2rem;
-  background-color: #777676;
+  background-color: #665adb;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
   border: 2px solid #fafafa;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .btn-project:hover {
   background-color: #fafafa;
   color: #000;
-  border: 2px solid #777676;
+  border: 2px solid #665adb;
 } 
 
 .btn-github {
@@ -101,18 +101,18 @@
 .btn-project-pessoal {
   text-decoration: none;
   padding: 1rem 2rem;
-  background-color: #e7e5e5;
-  color: #000;
+  background-color: #665adb;
+  color: #fff;
   text-transform: uppercase;
   font-weight: bold;
-  border: 2px solid #777676;
-  border-radius: 10px;
+  border: 2px solid #665adb;
+  border-radius: 15px;
 }
 
 .btn-project-pessoal:hover {
-  background-color: #777676;
-  color: #fff;
-  border: 2px solid #e7e5e5;
+  background-color: #e7e5e5;
+  color: #000;
+  border: 2px solid #665adb;
 } 
 
 @media screen and (max-width: 480px) {

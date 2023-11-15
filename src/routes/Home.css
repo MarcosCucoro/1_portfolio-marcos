@@ -30,7 +30,7 @@
 }
 
 .btn-social {
-  background-color: #777676;
+  background-color: #665adb;
   padding: 1rem 1.5rem;
   text-transform: uppercase;
   color: #fff;
@@ -47,7 +47,7 @@
 
 .btn-social:hover {
   background-color: #fafafa;
-  border: 2px solid #777676;
+  border: 2px solid #665adb;
   color: #000;
 }
 
