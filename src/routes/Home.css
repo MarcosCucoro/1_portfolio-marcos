@@ -48,7 +48,7 @@
 .btn-social:hover {
   background-color: #fafafa;
   border: 2px solid #665adb;
-  color: #000;
+  color: #665adb;
 }
 
 .btn-social a {
