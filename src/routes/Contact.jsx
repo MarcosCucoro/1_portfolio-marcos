@@ -4,6 +4,7 @@ import "./Contact.css"
 import BgNote2 from "../img/memojis/bg-note2.png"
 import { useState } from "react";
 import emailjs from "@emailjs/browser"
+import { TextField } from "@mui/material";
 
 const Contact = () => {
   const [name, setName] = useState("")
@@ -13,7 +14,7 @@ const Contact = () => {
   function sendEmail(e) {
     e.preventDefault()
 
-    if(name === "" || email === "" || message === "") {
+    if (name === "" || email === "" || message === "") {
       alert("Preencha todos os campos")
       return
     }
@@ -25,14 +26,14 @@ const Contact = () => {
     }
 
     emailjs.send("service_2q5kd8w", "template_1027wft", templateParams, "chIzJM6RHTviHrl5Z")
-    .then((res) => {
-      console.log("E-mail enviado", res.status, res.text)
-      setName("")
-      setEmail("")
-      setMassage("")
-    }, (err) => {
-      console.log("Erro: ", err)
-    })
+      .then((res) => {
+        console.log("E-mail enviado", res.status, res.text)
+        setName("")
+        setEmail("")
+        setMassage("")
+      }, (err) => {
+        console.log("Erro: ", err)
+      })
   }
 
   return (
@@ -84,42 +85,31 @@ const Contact = () => {
           <div className="form-contact">
             <form className="form" onSubmit={sendEmail}>
               <div className="form-header">
-                <label>
-                  <span>Nome:</span>
-                  <input
-                    type="text"
-                    name='name'
-                    placeholder='Digite seu nome'
-                    onChange={(e) => setName(e.target.value)}
-                    value={name}
-                  />
-                </label>
-                <label>
-                  <span>E-mail:</span>
-                  <input
-                    type="text"
-                    name='email'
-                    placeholder='Digite seu e-mail'
-                    onChange={(e) => setEmail(e.target.value)}
-                    value={email}
-                  />
-                </label>
+                <TextField
+                  className="textfield"
+                  variant="outlined" label="Nome" type="text"
+                  onChange={(e) => setName(e.target.value)}
+                  value={name}
+                  placeholder='Digite seu nome' />
+                <TextField className="textfield" variant="outlined" label="E-mail" type="text"
+                  placeholder='Digite seu e-mail'
+                  onChange={(e) => setEmail(e.target.value)}
+                  value={email} />
               </div>
               <div className="form-message">
-                <label>
-                  <span>Mensagem:</span>
-                  <textarea 
-                    name="message" 
-                    placeholder='Digite sua mensagem...'
-                    onChange={(e) => setMassage(e.target.value)}
-                    value={message}
-                    ></textarea>
-                </label>
+                <TextField
+                  label="Mensagem"
+                  multiline
+                  rows={4}
+                  placeholder='Digite sua mensagem...'
+                  onChange={(e) => setMassage(e.target.value)}
+                  value={message}
+                />
                 <div className="btn-send">
-                  <input 
-                    type="submit" 
-                    value="Enviar email" 
-                    />
+                  <input
+                    type="submit"
+                    value="Enviar email"
+                  />
                 </div>
               </div>
             </form>

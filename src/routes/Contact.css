@@ -143,20 +143,13 @@
   border-radius: 5px;
 }
 
-.form-header label input,
-.form-message textarea {
+.form-header {
   font-family: 'Comic Neue', cursive;
-  border: 1px solid #949494;
-  background-color: #f0f0f0;
   border-radius: 5px;
   font-size: 1rem;
   color: #333333;
 }
 
-.form-header label input:focus,
-.form-message textarea:focus {
-  outline: 2px solid #000;
-}
 
 .form-message {
   width: 45%;
@@ -171,9 +164,7 @@
 }
 
 .form-message textarea {
-  height: 8.4rem;
-  padding: 0.8rem;
-}
+  height: 100%;}
 
 .btn-send input {
   font-family: 'Comic Neue', cursive;

@@ -44,14 +44,18 @@
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
-  border: 2px solid #fafafa;
+  border: 2px solid #665adb;
   border-radius: 15px;
+  box-shadow: 4px 5px 2px 0px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+
 }
 
 .btn-project:hover {
   background-color: #fafafa;
   color: #665adb;
   border: 2px solid #665adb;
+  box-shadow: 0px 5px 2px 4px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+
 } 
 
 .btn-github {
@@ -66,6 +70,25 @@
 .btn-github:hover {
   color: #665adb;
 }
+
+.btn-project-pessoal {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background-color: #665adb;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid #665adb;
+  border-radius: 15px;
+    box-shadow: 4px 5px 2px 0px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+
+.btn-project-pessoal:hover {
+  background-color: #e7e5e5;
+  color: #665adb;
+  border: 2px solid #665adb;
+    box-shadow: 0px 5px 2px 4px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+} 
 
 .container-project-detail-pessoal {
   display: flex;
@@ -98,22 +121,6 @@
   color: #000;
 }
 
-.btn-project-pessoal {
-  text-decoration: none;
-  padding: 1rem 2rem;
-  background-color: #665adb;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: bold;
-  border: 2px solid #665adb;
-  border-radius: 15px;
-}
-
-.btn-project-pessoal:hover {
-  background-color: #e7e5e5;
-  color: #665adb;
-  border: 2px solid #665adb;
-} 
 
 @media screen and (max-width: 480px) {
   .container-project h2 {

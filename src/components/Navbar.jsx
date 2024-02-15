@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom"
 import { IoHomeOutline, IoInformationCircleOutline, IoMailOutline } from "react-icons/io5";
 import "./Navbar.css"
+
 const Navbar = () => {
 
   return (

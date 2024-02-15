@@ -1,5 +1,5 @@
 .container {
-  height: 85vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
   position: relative;
   top: 1px;
   left: 0;
@@ -39,16 +39,19 @@
   font-weight: 700;
   cursor: pointer;
   border-radius: .5rem;
-  gap: .5rem;
+  gap: 1rem;
   text-decoration: none;
   font-size: 1.2rem;
-  border: 2px solid #fafafa;
+  border: 2px solid #665adb;
+  box-shadow: 4px 5px 2px 0px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
 }
 
 .btn-social:hover {
   background-color: #fafafa;
   border: 2px solid #665adb;
   color: #665adb;
+  font-size: 1.25rem;
+  box-shadow: 0px 5px 2px 4px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
 }
 
 .btn-social a {

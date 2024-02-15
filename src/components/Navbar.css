@@ -3,27 +3,31 @@
   display: flex;
   justify-content: center;
   gap: 3.5rem;
-  border-bottom: 1px solid #000;
-  padding: 1rem 0 0 0;
+  padding: 1.5rem 0 0 0;
+  color: #7e7c7c;
+  box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+  background-color: #e7e5e5;
+  border-bottom: 1px solid #dddddd;
 }
 
 .navbar-links {
   text-decoration: none;
-  font-size: 0.7rem;
+  font-size: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #7e7c7c;
+  color: #302e2e;
 }
 
 #navbar-links-icon {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
+  font-weight: bold;
   margin-bottom: 0.2rem;
 }
 
 .active {
-  color: #fdfdfd;
-  border-bottom: 2px solid #fdfdfd;
+  color: #7e7c7c;
+  border-bottom: 2px solid #7e7c7c;
 }
 
 
